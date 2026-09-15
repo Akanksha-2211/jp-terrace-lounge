@@ -30,6 +30,11 @@
 
 html { scroll-behavior: smooth; }
 
+/* Keeps anchor-jumped sections from being covered by the fixed navbar */
+section[id] {
+  scroll-margin-top: 90px;
+}
+
 body {
   font-family: var(--font-body);
   background-color: var(--color-primary);
@@ -58,7 +63,15 @@ h1, h2, h3, h4 {
   padding: 0 24px;
 }
 
-.section { padding: 110px 0; position: relative; }
+.section {
+  padding: 110px 0;
+  position: relative;
+  min-height: 100vh;
+  min-height: 100svh;
+  display: flex;
+  align-items: center;
+}
+.section > .container { width: 100%; }
 
 .section-header { text-align: center; max-width: 680px; margin: 0 auto 60px; }
 
