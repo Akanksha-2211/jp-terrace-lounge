@@ -20,7 +20,7 @@ export default function About() {
           <span className="section-tag">About Us</span>
           <h2>About JP Terrace Lounge</h2>
           <p>
-            Nestled in the heart of Mindspace, JP Terrace Lounge is a rooftop venue designed for
+            Nestled in the heart of Madhapur, JP Terrace Lounge is a rooftop venue designed for
             intimate celebrations and memorable gatherings. With elegant ambience, open skies,
             comfortable seating, and a relaxed atmosphere, it's the perfect destination for hosting
             your special occasions.

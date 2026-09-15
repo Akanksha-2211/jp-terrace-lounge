@@ -14,13 +14,6 @@ export const timeSlots = [
   { id: 'overnight', label: 'Overnight (10:00 PM - 6:00 AM)' },
 ];
 
-export const themes = [
-  { id: 'gold', color: '#D4AF37', label: 'Gold Luxury theme' },
-  { id: 'emerald', color: '#2FA876', label: 'Emerald Nights theme' },
-  { id: 'sapphire', color: '#7C9CF0', label: 'Royal Sapphire theme' },
-  { id: 'rosegold', color: '#E0A899', label: 'Rose Gold theme' },
-];
-
 export const galleryImages = [
   { src: '/images/jp-terrace-daylight.png', alt: 'JP Terrace Lounge dining area in bright daylight', caption: 'Bright Daylight' },
   { src: '/images/jp-terrace-sunset-dining.png', alt: 'JP Terrace Lounge dining area at a pink-gold sunset', caption: 'Golden Sunset' },
@@ -37,7 +30,7 @@ export const venueHighlights = [
   { icon: 'fa-solid fa-music', title: 'Premium Music System', desc: 'Immersive sound experience' },
   { icon: 'fa-solid fa-square-parking', title: 'Parking Available', desc: 'Hassle-free convenience' },
   { icon: 'fa-solid fa-mountain-sun', title: 'Sunset & Night Views', desc: 'Breathtaking sky views' },
-  { icon: 'fa-solid fa-location-dot', title: 'Prime Mindspace Location', desc: 'Easy to reach, easy to love' },
+  { icon: 'fa-solid fa-location-dot', title: 'Prime Madhapur Location', desc: 'Easy to reach, easy to love' },
   { icon: 'fa-solid fa-champagne-glasses', title: 'Private Event Bookings', desc: 'Exclusive use of the venue' },
   { icon: 'fa-solid fa-moon', title: 'Overnight Celebrations', desc: 'Available on request' },
 ];

@@ -16,7 +16,7 @@ export default function Contact() {
               <i className="fa-solid fa-location-dot"></i>
               <div>
                 <h4>Address</h4>
-                <p>Mindspace, Hyderabad, Telangana</p>
+                <p>JP Mindtree, Plot No. 51, Vittal Rao Nagar, Hitech City Road, near Melange Tower, HUDA Techno Enclave, Madhapur, Hyderabad, Telangana 500081</p>
               </div>
             </div>
             <div className="contact-item">
@@ -55,7 +55,7 @@ export default function Contact() {
               <i className="fa-brands fa-whatsapp"></i> WhatsApp
             </RippleLink>
             <RippleLink
-              href="https://maps.google.com/?q=Mindspace+Hyderabad"
+              href="https://maps.google.com/?q=JP+Mindtree+Plot+No+51+Vittal+Rao+Nagar+Hitech+City+Road+HUDA+Techno+Enclave+Madhapur+Hyderabad+Telangana+500081"
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-secondary"

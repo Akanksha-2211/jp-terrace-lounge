@@ -4,31 +4,6 @@
 
 document.addEventListener('DOMContentLoaded', () => {
 
-  /* ---------- Colour Theme Switcher ---------- */
-  const themeDots = document.querySelectorAll('.theme-dot');
-
-  const applyTheme = (theme) => {
-    if (theme && theme !== 'gold') {
-      document.documentElement.setAttribute('data-theme', theme);
-    } else {
-      document.documentElement.removeAttribute('data-theme');
-    }
-    themeDots.forEach(dot => {
-      dot.classList.toggle('active', dot.getAttribute('data-theme') === (theme || 'gold'));
-    });
-  };
-
-  const savedTheme = localStorage.getItem('jptl-theme');
-  if (savedTheme) applyTheme(savedTheme);
-
-  themeDots.forEach(dot => {
-    dot.addEventListener('click', () => {
-      const theme = dot.getAttribute('data-theme');
-      applyTheme(theme);
-      localStorage.setItem('jptl-theme', theme);
-    });
-  });
-
   /* ---------- Sticky Navbar ---------- */
   const navbar = document.getElementById('navbar');
   const toggleNavbar = () => {
